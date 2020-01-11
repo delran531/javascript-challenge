@@ -6,7 +6,6 @@ var $stateInput = document.querySelector("#state");
 var $countryInput = document.querySelector("#country");
 var $shapeInput = document.querySelector("#shape");
 var $searchBtn = document.querySelector("#search");
-var $loadMoreBtn = document.querySelector("#pagination");
 var startingIndex = 0;
 var resultsPerPage = 50;
 var filteredDataSet = data;
