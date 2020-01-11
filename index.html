@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>UFO Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">UFO Sightings
+            <img class="nav-ufo" src="static/images/ufo.svg">
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="hero text-center">
+      <h1>UFO Sightings</h1>
+      <p>The Truth is Out There</p>
+    </div>  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Aliens R Real</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group"> -->
+            <label>Search date/time</label>
+            <input type="text" class="form-control" id="date" placeholder="M/D/YYYY">
+          </div>
+          <div class="form-group"> -->
+            <label>Search city</label>
+            <input type="text" class="form-control" id="city" placeholder="i.e. San Francisco">
+          </div>
+          <div class="form-group"> -->
+            <label>Search state</label>
+            <input type="text" class="form-control" id="state" placeholder="i.e. CA">
+          </div>
+          <div class="form-group"> -->
+            <label>Search country</label>
+            <input type="text" class="form-control" id="country" placeholder="i.e US">
+          </div>
+          <div class="form-group"> -->
+            <label>Search shape</label>
+            <input type="text" class="form-control" id="shape" placeholder="i.e circle, light, triangle, unknown, other">
+          </div>
+            <button type="submit" id="search" class="btn btn-default">Search</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>date/time</th>
+                <th>city</th>
+                <th>state</th>
+                <th>country</th>
+                <th>shape</th>
+                <th>duration</th>
+                <th>comments</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pagination">
+      
+      </div>
+    </div>
+
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
+    
+</body>
+
+</html>
